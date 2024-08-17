@@ -20,19 +20,22 @@ How to use:
   4. Copy token and save for later
   5. Clone this repository
   6. In the repositry, create a file called .env
-     - In the .env file add SLACK_TOKEN={your_token}
+     - In the .env file add these without the curly brackets:
+        - SLACK_TOKEN={your_token}
+        - USER_LINK={user_link}
+            - To get your user link:
+              - Navigate to your profile under "Direct Messages"
+              - Hover over your name and right click > "Copy" > "Copy Link"
+        - POLL_LINK={poll_link}
+          - To get your poll's link:
+            - Right click > Copy Link
   7. Go back to slack
   8. In the channel(s) you wish to have the polls in:
       - Navigate to the channel you want your polls
       - Click on the channel name with dropdown
       - Under the "Integrations" tab, add a new app and add your app
   8. An alternative way to add your bot to a channel is to use the slack command: /invite @{your_bot}
-  9. In slack, create a poll and copy the message link
-  10. Navigate to bot.py and fill "poll_link" with the poll link from slack
-  11. Navigate to your profile under "Direct Messages"
-  12. Hover over your name and right click > "Copy" > "Copy Link"
-  13. Navigate to bot.py and fill "user_link" with the user link from slack
-  14. Save run bot.py and the poll information will be directly messaged to you in slack
+  9. Save and run bot.py and the poll information will be directly messaged to you in slack
 
 
 

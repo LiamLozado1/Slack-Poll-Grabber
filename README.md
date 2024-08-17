@@ -25,8 +25,8 @@ How to use:
   8. In the channel(s) you wish to have the polls in:
       - Navigate to the channel you want your polls
       - Click on the channel name with dropdown
-      - Under the "Integrations" tab, add a new app
-  8. and alternative way to add your bot to a channel is to use the slack command: /invite @{your_bot}
+      - Under the "Integrations" tab, add a new app and add your app
+  8. An alternative way to add your bot to a channel is to use the slack command: /invite @{your_bot}
   9. In slack, create a poll and copy the message link
   10. Navigate to bot.py and fill "poll_link" with the poll link from slack
   11. Navigate to your profile under "Direct Messages"
